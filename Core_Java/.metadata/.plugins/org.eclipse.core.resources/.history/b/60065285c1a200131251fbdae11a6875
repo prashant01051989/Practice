@@ -1,0 +1,67 @@
+package com.test.collection;
+
+import java.util.HashSet;
+import java.util.Set;
+
+
+class Student{
+	int sid;
+	String name;
+	long phone;
+	public Student() {
+		super();
+	}
+	public Student(int sid, String name, long phone) {
+		super();
+		this.sid = sid;
+		this.name = name;
+		this.phone = phone;
+	}
+	@Override
+	public String toString() {
+		return "sid=" + sid + ", name=" + name + ", phone=" + phone
+				;
+	}
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((name == null) ? 0 : name.hashCode());
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Student other = (Student) obj;
+		if (name == null) {
+			if (other.name != null)
+				return false;
+		} else if (!name.equals(other.name))
+			return false;
+		return true;
+	}
+	
+}
+
+public class CollectionsTest {
+
+	public static void main(String[] args) {
+		Set<Student>set1=new HashSet<Student>();
+		Student stu1=new Student(1,"Anhsu",983562);
+		Student stu2=new Student(11,"Prashant",483562);
+		Student stu3=new Student(12,"Infinite",583562);
+		Student stu4=new Student(13,"set",683562);
+		set1.add(stu1);
+		set1.add(stu2);
+		set1.add(stu3);
+		set1.add(stu4);
+		System.out.println(set1);
+		
+	}
+
+}

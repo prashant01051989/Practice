@@ -1,0 +1,4 @@
+mm[i].getDeclaringClass().equals("Hello")&&
+				   mm[i].getName().equals("main")&&
+				   mm[i].getModifiers()==9&&
+				   mm[i].getReturnType().equals("void")&&

@@ -1,0 +1,7 @@
+package com.test.hibernate.persis;
+
+public class Message {
+private Long id;
+private String text;
+private Message message;
+}

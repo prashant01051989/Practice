@@ -1,0 +1,13 @@
+
+public class StirngTest {
+
+	public static void main(String[] args) {
+		String st="{\"name\":\"anshu\"}";
+		String old=st.substring((st.indexOf('\"')+1), (st.indexOf(':')-1));
+		st=st.replace(old, "Prashnat");
+		System.out.println(st);
+		st.split("\"");
+
+	}
+
+}

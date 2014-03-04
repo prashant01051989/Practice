@@ -1,0 +1,22 @@
+package com.thread.test;
+
+public class UserDaemonThreadDemo {
+
+	public static void main(String[] args) {
+		Daemon d=new Daemon();
+		d.setDaemon(true);
+		d.start();
+		
+		try {
+			d.sleep(10);
+		} catch (InterruptedException e) {
+				e.printStackTrace();
+		}		
+	}
+}
+
+class Daemon extends Thread{
+	public void run(){
+		System.out.println("Demon :"+isDaemon());
+	}
+}

@@ -1,0 +1,33 @@
+package com.collection.set.test;
+
+
+
+
+class Product{
+	int id;
+	String name;
+	public Product(int id,String name){
+		this.id=id;
+		this.name=name;
+	}
+	public boolean equals(Object o){
+		if(o instanceof Product){
+			Product p=(Product)o;
+			if(this.name.equals(p.name))
+				return true;
+		}
+		return false;
+	}
+}
+
+
+
+public class PriorityQueueTest {
+
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

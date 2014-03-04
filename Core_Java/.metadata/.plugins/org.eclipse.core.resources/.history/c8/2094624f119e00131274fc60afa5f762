@@ -1,0 +1,29 @@
+package com.io.test;
+
+public class FilePathExample {
+
+	public static void main(String[] args) {
+		try {
+			String fileName="Anshu.doc";
+			String finalFile="s";
+			String workingDir=System.getProperty("user.dir");
+			
+			String your_OS=System.getProperty("os.name").toLowerCase();
+			
+			if(your_OS.indexOf("win")>=0){
+				finalFile=workingDir+"\\"+fileName;
+			}else if(your_OS.indexOf("nix")>=0){
+				finalFile=workingDir+"/"+fileName;
+			}
+			
+			System.out.println(finalFile);
+			
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

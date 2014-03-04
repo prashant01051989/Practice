@@ -1,0 +1,25 @@
+package com.test.spring.aop.advice;
+
+import org.aopalliance.intercept.MethodInterceptor;
+import org.aopalliance.intercept.MethodInvocation;
+import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import com.test.spring.aop.aspects.LogService;
+
+public class MIAdvice implements MethodInterceptor{
+	public static final Logger LOG = Logger.getLogger(MIAdvice.class);
+	@Autowired
+	LogService log = null;
+	static {
+		LOG.info("MIAdvice - Satic Block");
+	}
+	{
+		LOG.info("MIAdvice - Instance Block");
+	}
+	public Object invoke(MethodInvocation mi) throws Throwable {
+		
+		return null;
+	}
+
+	
+}

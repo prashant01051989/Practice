@@ -1,0 +1,16 @@
+package com.thread.test;
+
+public class DeadLockTest {
+
+
+	
+	Thread t1=new Thread(){
+		public void run(){
+			
+		}
+	}
+	
+	
+}
+
+

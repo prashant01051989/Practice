@@ -1,0 +1,97 @@
+package com.inher.test;
+
+ //class public Test1 {
+public class Test1{
+	int a,c=30;
+	static int b;
+	//b=10;
+	static Test1 t;
+	static Test1 Test1;
+	//System.out.println("");
+	/*public void Test1(){
+		System.out.println("Test1 Def cons");
+		
+	}
+	 */
+	public  Test1(){
+		System.out.println("Test1 Def cons");
+		
+	}
+	public Test1(int b){
+		this();
+		System.out.println("Test1 1-param cons");
+		this.b=b;
+		//Test1 t=new Test1(2);
+	}
+	public Test1(int a,int b){
+		this(b);
+	//  this();
+	//	super();
+		System.out.println("Test1 2-param cons");
+		this.a=a;
+	}
+	
+	
+	static{
+		System.out.println("static -block");
+		//System.out.println(a);
+		System.out.println(b);
+		Test1 t=new Test1();
+		int a;
+		a=10;
+		System.out.println(a);
+		//static{}
+		{
+			System.out.println("Ins block");
+		}
+		class c{}
+	}
+	
+	
+	{
+		
+		System.out.println("Ins-Block");
+		System.out.println(a);
+		System.out.println(b);
+		//static{}
+		{}
+		class c{}
+		Boolean b=new Boolean();
+	}
+	public static void main(String[] args) {
+		
+		/*Test1 t1=new Test1();
+		t1.a=10;
+		t1.b=20;
+		//t1.Test1();
+		System.out.println(t1.a);
+		System.out.println(t1.b);
+		Test1 t2=new Test1();
+		t2.a=30;
+		//t1.b=20;
+		System.out.println(t2.a);
+		System.out.println(t2.b);
+		
+		//System.out.println(a);
+		System.out.println(b);
+		//System.out.println(t.a);
+		System.out.println(t.b);
+		System.out.println(t1.a);
+		System.out.println(t1.b);
+		Test1 t3=null;
+		//System.out.println(t1.a);
+		System.out.println(t3.b);
+		Test1 t4=new Test1(100,200);
+		System.out.println(t4.a);
+		System.out.println(b);*/
+		Test1 t=new Test1();
+		}
+	
+	public void m1(){
+		System.out.println(a);
+		System.out.println(b);
+	}
+	
+	
+
+}

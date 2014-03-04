@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<installs>
+<install is-default="true">
+<home>C:\spring-tool-suite-3.2.0.RELEASE-e3.8.2-win32-x86_64\springsource\spring-roo-1.2.3.RELEASE\</home>
+<name>Roo 1.2.3.RELEASE</name>
+</install>
+</installs>

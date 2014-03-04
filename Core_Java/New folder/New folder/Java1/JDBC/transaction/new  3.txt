@@ -1,0 +1,4 @@
+create table account(
+accno number(3),
+acctype char(2),
+bal number(9));

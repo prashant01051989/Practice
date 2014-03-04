@@ -1,0 +1,17 @@
+package com.thread.test;
+
+public class UserDaemonThreadDemo {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+	}
+
+}
+
+class Demon extends Thread{
+	
+}

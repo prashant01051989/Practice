@@ -1,0 +1,9 @@
+package com.test.builder;
+
+import java.io.PipedInputStream;
+
+public class StackTest {
+public static void main(String[] args) {
+	PipedInputStream in=new PipedInputStream();
+}
+}

@@ -1,0 +1,11 @@
+package com.test.collection;
+
+public class ArraysTest {
+
+	public static void main(String[] args) {
+		String []st={"Anshu","Prashant","Kumar","23 "};
+		Integer []i={100,200,300,400,500};
+		String st1=Arrays.toString(i)
+	}
+
+}

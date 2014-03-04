@@ -1,0 +1,12 @@
+package com.io.test;
+
+import java.io.File;
+
+public class CreateFileTest {
+	public static void main(String[] args) {
+		
+		File file=new File("D:\\LABS\\JAVA_LABS\\Core_Java\\IOTest\\TestFile.txt");
+		
+	}
+
+}

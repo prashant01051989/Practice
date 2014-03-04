@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	 xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context 
+	http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/aop 
+	http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+	<context:annotation-config />
+	
+	<bean id="log" class="com.test.spring.aop.aspects.LogService"/>
+	<bean id="security" class="com.test.spring.aop.aspects.SecurityService" />
+
+	<bean id="mba" class="com.test.spring.aop.advice.MBAdvice" />
+	<bean id="mia" class="com.test.spring.aop.advice.MIAdvice" />
+	<bean id="mra" class="com.test.spring.aop.advice.MRAdvice" />
+	<bean id="mta" class="com.test.spring.aop.advice.MTAdvice" />
+
+	<bean id="helloTarget" class="com.test.spring.aop.services.HelloServiceImpl" />
+	<bean id="haiTarget" class="com.test.spring.aop.services.HaiServiceImpl" />
+
+
+	<bean id="PC1"
+		class="org.springframework.aop.aspectj.AspectJExpressionPointcut">
+		<property name="expression" value="execution(* com.test.spring.aop.services.HelloServiceImpl.helloM*(..))" />
+	</bean>
+
+	<bean id="MBAdviser" class="org.springframework.aop.support.DefaultPointcutAdvisor">
+		<property name="advice" ref="mba" />
+		<property name="pointcut" ref="PC1" />
+	</bean>
+	
+	<bean id="MTAdviser" class="org.springframework.aop.support.DefaultPointcutAdvisor">
+		<property name="advice" ref="mta"/>
+		<property name="pointcut" ref="PC1"/>	
+	</bean>
+
+	<bean id="helloProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="proxyInterfaces" value="com.test.spring.aop.services.HelloService" />
+		<property name="target" ref="helloTarget" />
+		<property name="interceptorNames">
+			<list>
+				<value>MBAdviser</value>
+				<value>MTAdviser</value>
+			</list>
+		</property>
+	</bean>
+
+
+</beans>

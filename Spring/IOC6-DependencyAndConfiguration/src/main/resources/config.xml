@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="aobj" name="Prashant" class="com.test.spring.ioc6.A">
+		<property name="a" value="10" />
+		<property name="aName" value="AClass" />
+	</bean>
+
+	<bean id="bobj" name="Anshu" class="com.test.spring.ioc6.B">
+		<property name="b" value="20" />
+		<property name="bName" value="BClass" />
+	</bean>
+
+
+	<bean id="hello1" class="com.test.spring.ioc6.Hello">
+
+		<property name="aName">
+			<idref bean="aobj" />
+		</property>
+		<property name="bName">
+			<idref bean="bobj" />
+		</property>
+	</bean>
+
+	<bean id="hello2" class="com.test.spring.ioc6.Hello">
+		<property name="aObj">
+			<ref bean="aobj" />
+		</property>
+		<property name="bObj">
+			<ref bean="bobj" />
+		</property>
+	</bean>
+
+	<bean id="hello3" class="com.test.spring.ioc6.Hello">
+		<property name="aObj">
+			<ref local="aobj" />
+		</property>
+		<property name="bObj">
+			<ref local="bobj" />
+		</property>
+	</bean>
+
+
+	<bean id="hello4" class="com.test.spring.ioc6.Hello">
+		<property name="aObj">
+			<bean class="com.test.spring.ioc6.A">
+				<property name="a" value="10" />
+				<property name="aName" value="AClass" />
+			</bean>
+		</property>
+		<property name="bObj">
+			<bean class="com.test.spring.ioc6.B">
+				<property name="b" value="20" />
+				<property name="bName" value="BClass" />
+			</bean>
+		</property>
+	</bean>
+
+</beans>

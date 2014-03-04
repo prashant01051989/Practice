@@ -1,0 +1,23 @@
+package com.test.noninstantibility;
+
+class Student{
+	private Student(){
+	throw new AssertionError();	
+	}
+	public static void m1(){
+		Student stu=new Student();
+	}
+}
+
+/*class Employee extends Student{
+	
+}*/
+public class Test {
+	
+public static void main(String[] args) {
+	//Student stu=new Student();
+}
+
+	
+	
+}

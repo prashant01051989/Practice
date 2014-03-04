@@ -1,0 +1,11 @@
+package com.test.spring.aop.aspects;
+
+import org.apache.log4j.Logger;
+
+public class SecurityService {
+	public static final Logger LOG = Logger.getLogger(SecurityService.class);
+
+	public void verifyUser() {
+		LOG.info("SecurityService...VerifyUser()...");
+	}
+}

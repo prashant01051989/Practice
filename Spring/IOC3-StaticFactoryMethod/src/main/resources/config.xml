@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="aobj" class="com.test.spring.ioc3.A" factory-method="getAInstance">
+		<constructor-arg>
+			<value>10</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value>AObject</value>
+		</constructor-arg>
+	</bean>
+
+	<bean id="bobj" class="com.test.spring.ioc3.B" factory-method="getBInstance">
+		<constructor-arg value="20" />
+		<constructor-arg value="BClass" />
+	</bean>
+
+	<bean id="hello1" class="com.test.spring.ioc3.Hello"
+		factory-method="getHelloInstance">
+		<constructor-arg ref="aobj" />
+		<constructor-arg ref="bobj" />
+	</bean>
+
+	<bean id="hello2" class="com.test.spring.ioc3.Hello">
+		<constructor-arg type="com.test.spring.ioc3.A" ref="aobj" />
+		<constructor-arg type="com.test.spring.ioc3.B" ref="bobj" />
+	</bean>
+	<bean id="hello3" class="com.test.spring.ioc3.Hello">
+		<constructor-arg index="0" ref="aobj" />
+		<constructor-arg index="1" ref="bobj" />
+	</bean>
+
+
+</beans>

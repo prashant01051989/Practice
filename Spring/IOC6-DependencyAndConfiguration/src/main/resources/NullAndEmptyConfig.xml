@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="obj1" class="com.test.spring.ioc6.NullAndEmpty">
+		<property name="empty" value="" />
+		<property name="name">
+			<value>null</value>
+		</property>
+	</bean>
+
+
+
+
+</beans>

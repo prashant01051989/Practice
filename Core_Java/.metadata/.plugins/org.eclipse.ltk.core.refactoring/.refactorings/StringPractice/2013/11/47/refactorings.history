@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;java.string.test.comparator&apos; to &apos;com.string.test.comparator&apos;&#x0D;&#x0A;- Original project: &apos;StringPractice&apos;&#x0D;&#x0A;- Original element: &apos;StringPractice/src/java.string.test.comparator&apos;&#x0D;&#x0A;- Renamed element: &apos;StringPractice/src/com.string.test.comparator&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;java.string.test.comparator&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;java.string.test.comparator" name="com.string.test.comparator" qualified="false" references="true" stamp="1384937397870" textual="false" version="1.0"/>
+</session>

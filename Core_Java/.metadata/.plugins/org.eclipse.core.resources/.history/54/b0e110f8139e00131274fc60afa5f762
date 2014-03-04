@@ -1,0 +1,20 @@
+package com.io.test;
+
+public class DeleteExample {
+
+
+	public static void main(String[] args) {
+		try {
+			String workingDir=System.getProperty("user.dir");
+			String yourOS=System.getProperty("os.name");
+			String finalName="";
+			finalName=workingDir+"\\"+yourOS;
+			File file=new File();
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+
+	}
+
+}

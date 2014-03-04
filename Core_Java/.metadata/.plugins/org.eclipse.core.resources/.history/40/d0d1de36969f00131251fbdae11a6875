@@ -1,0 +1,36 @@
+package com.thread.test;
+
+public class NeedForSynchronizationDemo {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+class FinTrans{
+	public static String transName;
+	public static double amount;
+}
+
+
+class TransThread extends Thread{
+	private FinTrans ft;
+	public TransThread(FinTrans ft,String name){
+		super(name);
+		this.ft=ft;
+	}
+	public void run(){
+		for(int i=0;i<100;i++){
+			if(getName().equals("DepositeThread")){
+				ft.transName="Deposite";
+				try {
+					Thread.sleep((int)Math.random()*1000);
+				} catch (Exception e) {
+					// TODO: handle exception
+				}
+			}
+		}
+	}
+}

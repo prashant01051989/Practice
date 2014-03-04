@@ -1,0 +1,18 @@
+package com.collection.set.test;
+
+import java.util.ArrayList;
+
+public class ArrayListTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		ArrayList<String> al=new ArrayList<String>();
+		al.add("Same");
+		al.add("Name");
+		al.set(3,"ddd");
+
+	}
+
+}

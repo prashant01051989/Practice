@@ -1,0 +1,8 @@
+package com.anno.test;
+
+@Copyright("Copyright to Infinite Computer Solutions 2013")
+public class Student {
+public static void main(String[] args) {
+	System.out.println(Student.class);
+}
+}

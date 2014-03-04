@@ -1,0 +1,7 @@
+package com.anno.test;
+
+import javax.annotation.processing.AbstractProcessor;
+
+public class BeanInfoAnnotationProcessor extends AbstractProcessor{
+
+}

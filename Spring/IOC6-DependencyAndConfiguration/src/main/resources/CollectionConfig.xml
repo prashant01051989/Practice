@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="order1" class="com.test.spring.ioc6.collection.Order">
+		<constructor-arg name="orderId" value="101" />
+		<constructor-arg name="orderDate" value="1-1-2014" />
+		<constructor-arg name="qty" value="10" />
+		<constructor-arg name="cost" value="10000" />
+		<constructor-arg name="status" value="Dispatched" />
+
+	</bean>
+
+	<bean id="order2" class="com.test.spring.ioc6.collection.Order">
+		<constructor-arg name="orderId" value="102" />
+		<constructor-arg name="orderDate" value="2-1-2014" />
+		<constructor-arg name="qty" value="20" />
+		<constructor-arg name="cost" value="20000" />
+		<constructor-arg name="status" value="Not yet" />
+	</bean>
+
+	<bean id="cust1" class="com.test.spring.ioc6.collection.Customer">
+		<constructor-arg value="101" />
+		<constructor-arg value="Anshu" />
+		<constructor-arg>
+			<list>
+				<value>a@infinite.com</value>
+				<value>b@infinite.com</value>
+				<value>c@infinite.com</value>
+				<value>d@infinite.com</value>
+			</list>
+		</constructor-arg>
+		<constructor-arg>
+			<set>
+				<value>111</value>
+				<value>222</value>
+				<value>333</value>
+				<value>444</value>
+			</set>
+		</constructor-arg>
+		<property name="myProperties">
+			<props>
+				<prop key="AAA">1111</prop>
+				<prop key="BBB">2222</prop>
+				<prop key="CCC">3333</prop>
+				<prop key="DDD">4444</prop>
+			</props>
+		</property>
+		<property name="orders">
+			<set>
+				<ref bean="order1" />
+				<ref bean="order2" />
+			</set>
+		</property>
+
+		<property name="refs">
+			<map>
+				<entry key="AAA" value="111" />
+				<entry key="BBB" value="222" />
+				<entry key="CCC" value="333" />
+			</map>
+
+		</property>
+
+	</bean>
+
+
+	<bean id="stu1" abstract="true" class="com.test.spring.ioc6.collection.Student">
+		<property name="sid" value="101" />
+		<property name="cities">
+			<list>
+				<value>Blore</value>
+				<value>Patna</value>
+				<value>Delhi</value>
+				<value>Chennai</value>
+			</list>
+		</property>
+		<property name="phones">
+			<list>
+				<value>1111</value>
+				<value>2222</value>
+				<value>3333</value>
+				<value>4444</value>
+			</list>
+		</property>
+
+	</bean>
+
+
+	<bean id="emp1" parent="stu1" class="com.test.spring.ioc6.collection.Employee">
+
+		<property name="companies">
+			<list>
+				<value>infinite</value>
+				<value>SLK</value>
+				<value>iGate</value>
+				<value>HCL</value>
+			</list>
+		</property>
+
+		<property name="cities">
+			<list merge="true">
+				<value>Raipur</value>
+				<value>Pune</value>
+				<value>Mumbai</value>
+			</list>
+		</property>
+	</bean>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</beans>

@@ -1,0 +1,24 @@
+package com.thread.test;
+
+public class ThreadNameTest {
+
+	public static void main(String[] args) {
+		NameTest nt = new NameTest("Anshu");
+		nt.start();
+	}
+}
+
+class NameTest extends Thread {
+
+	public NameTest() {
+	}
+
+	public NameTest(String name) {
+		super(name);
+		//setName(name);
+	}
+
+	public void run() {
+		System.out.println("getName() :" + getName());
+	}
+}

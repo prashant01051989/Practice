@@ -1,0 +1,57 @@
+/*package com.collection.set.test;
+
+import java.util.PriorityQueue;
+
+
+
+
+class Product implements Comparable<Product>{
+	int id;
+	String name;
+	public Product(int id,String name){
+		this.id=id;
+		this.name=name;
+	}
+	public boolean equals(Object o){
+		System.out.println("equals");
+		if(o instanceof Product){
+			Product p=(Product)o;
+			if(this.name.equals(p.name))
+				return true;
+		}
+		return false;
+	}
+	public int hashCode(){
+		System.out.println("hashcode");
+		return id;
+	}
+	
+	public int compareTo(Product p){
+		return this.name.compareTo(p.name);
+	}
+	public String toString(){
+		return String.valueOf(this.id);
+	}
+}
+
+
+
+public class PriorityQueueTest {
+
+	
+	public static void main(String[] args) {
+		Product p1=new Product(1,"C");
+		Product p2=new Product(2,"D");
+		Product p3=new Product(3,"B");
+		Product p4=new Product(4,"A");
+		PriorityQueue<Product>pq=new PriorityQueue<Product>();
+		pq.add(p1);
+		pq.add(p2);
+		pq.add(p3);
+		pq.add(p4);
+		System.out.println(pq);
+		
+	}
+
+}
+*/

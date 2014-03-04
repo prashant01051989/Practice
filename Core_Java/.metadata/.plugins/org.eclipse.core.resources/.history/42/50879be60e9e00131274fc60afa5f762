@@ -1,0 +1,8 @@
+package com.io.test;
+
+public class CreateFileTest {
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.test.controlStatement;
+
+public class ForLoopTest {
+	public static void main(String[] args) {
+		for(;;;){
+			
+		}
+		
+		
+		
+	}
+}

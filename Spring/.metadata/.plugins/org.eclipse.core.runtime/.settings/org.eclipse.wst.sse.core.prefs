@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+task-tag-projects-already-scanned=Servers,IOC1-Hello-Setter,IOC2-Constructor,IOC3-StaticFactoryMethod,IOC4-InstanceFactoryMethod,IOC5-CyclicDependency,IOC6-DependencyAndConfiguration,IOC7-P-NameSpace,IOC10-AutowireByName,IOC8-C-NameSpace,IOC9-CompoundPropertyName,IOC11-AutowireByType,IOC12-AutowireByConstructor,IOC14-DependsOn,IOC13-BeanScope,IOC15-Anno-AutoWiring,String

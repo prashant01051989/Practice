@@ -1,0 +1,11 @@
+package com.thread.test;
+
+public class ThreadTest1 {
+
+	public static void main(String[] args) {
+		Thread t=new Thread();
+		System.out.println(t);
+		System.out.println("Thread.activeCount(): " +Thread.activeCount());
+	}
+
+}

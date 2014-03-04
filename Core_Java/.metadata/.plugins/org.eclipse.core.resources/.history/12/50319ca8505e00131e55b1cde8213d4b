@@ -1,0 +1,6 @@
+package com.anno.test;
+
+@Copyright("Copyright to Infinite Computer Solutions 2013")
+public class Student {
+
+}

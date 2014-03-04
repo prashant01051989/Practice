@@ -1,0 +1,8 @@
+package com.test.controlStatement;
+
+public class EnhancedForLoop {
+	public static void main(String[] args) {
+		
+	}
+
+}

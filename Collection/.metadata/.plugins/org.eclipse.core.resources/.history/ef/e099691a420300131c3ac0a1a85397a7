@@ -1,0 +1,31 @@
+package com.collection.set.test;
+
+import java.util.Date;
+import java.util.HashSet;
+
+
+
+class A{
+	public int hashCode(){
+		System.out.println("dddddddd");
+		return (int)(new Date()).getTime();
+	}
+}
+public class dfdf {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		A a =new A();
+		HashSet<A> h=new HashSet<A>();
+		h.add(a);
+		h.add(a);
+		h.add(a);
+		h.add(a);
+		h.add(a);
+
+	}
+
+}
+

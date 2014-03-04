@@ -1,0 +1,56 @@
+package com.thread.test;
+
+public class DeadLockTest {
+
+	public static void main(String[] args) {
+		String st="";
+		Thread t1 = new TransThread1(st,"A");
+		Thread t2 = new TransThread1(st,"B");
+		t1.start();
+		t2.start();
+
+	}
+}
+
+class FinTrans1 {
+	public static String transName;
+	public static double amount;
+}
+
+class TransThread1 extends Thread {
+	private String st;
+	private static String anotherSharedLock = "";
+
+	TransThread1(String st, String name) {
+		super(name); // Save thread's name
+		this.st = st; // Save reference to financial transaction object
+	}
+
+	public void run() {
+		for (int i = 0; i <10; i++) {
+			if (getName().equals("Deposit Thread")) {
+				synchronized (st) {
+					synchronized (anotherSharedLock) {
+						
+						try {
+							Thread.sleep((int) (Math.random() * 1000));
+						} catch (InterruptedException e) {
+						}
+						System.out.println("Deposite");
+					}
+				}
+			} else {
+				synchronized (anotherSharedLock) {
+					synchronized (st) {
+						
+						try {
+							Thread.sleep((int) (Math.random() * 1000));
+						} catch (InterruptedException e) {
+						}
+						System.out.println("WithDrawl");
+					}
+				}
+			}
+		}
+	}
+}

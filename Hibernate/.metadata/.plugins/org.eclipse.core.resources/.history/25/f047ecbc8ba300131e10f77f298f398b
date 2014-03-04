@@ -1,0 +1,24 @@
+package com.test.hibernate.client;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import com.test.hibernate.persis.Message;
+
+public class Client {
+	public static void main(String[] args) {
+		//First unit of work
+		Session session=HibernateUtil.getSessionFactory().openSession();
+		Transaction tx=session.beginTransaction();
+		Message message=new Message("Hello World");
+		Long msgid=(Long) session.save(message);
+		tx.commit();
+		session.close();
+		
+		//Second unit of Work
+			Session newSession=HibernateUtil.getSessionFactory().openSession();
+			Transaction tx=newSession.beginTransaction();
+			List<Message> messages=newSession.createQuery("from Message m order by m.text asc").list();
+	
+	}
+}

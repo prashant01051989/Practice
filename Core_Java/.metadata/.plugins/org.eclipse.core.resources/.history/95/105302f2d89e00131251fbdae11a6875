@@ -1,0 +1,29 @@
+package com.test.serialization;
+
+import java.io.Serializable;
+
+public class ObjectStreamTest {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+
+class Employee implements Serializable{
+	private String name;
+	private Date hireDate;
+	private double salary;
+	
+	public Employee(){}
+	
+	public Employee(String name,double salary,int year,int month,int day){
+		this.name=name;
+		this.salary=salary;
+		GregorianCalendar calendar = new GregorianCalendar(year, month - 1, day);
+		hireDay = calendar.getTime();
+	}
+	
+}

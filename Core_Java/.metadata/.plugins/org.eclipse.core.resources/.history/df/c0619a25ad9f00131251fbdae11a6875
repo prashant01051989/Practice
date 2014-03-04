@@ -1,0 +1,28 @@
+package com.thread.test;
+
+public class PushPopTest {
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+class Stack{
+	int x;
+	public void push(int i){
+		this.x=i;
+	}
+	public int pop(){
+		return x;
+	}
+}
+
+class HelloThread extends Thread{
+	
+}
+
+class HaiThread extends Runable{
+	
+}

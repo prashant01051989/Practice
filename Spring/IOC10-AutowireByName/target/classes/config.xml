@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+
+	<bean id="a" class="com.test.spring.ioc10.A" lazy-init="true" >
+		<property name="a" value="10" />
+		<property name="aName" value="AClass" />
+	</bean>
+
+	<bean id="b" class="com.test.spring.ioc10.B" lazy-init="true">
+		<property name="b" value="20" />
+		<property name="bName" value="BClass" />
+	</bean>
+
+
+	<bean id="hello1" class="com.test.spring.ioc10.Hello" autowire="byName"/>
+
+</beans>

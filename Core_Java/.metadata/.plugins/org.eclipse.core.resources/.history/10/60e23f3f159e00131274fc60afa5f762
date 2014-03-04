@@ -1,0 +1,27 @@
+package com.io.test;
+
+public class DeleteFileWithExtention {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+
+class DeleteFile{
+	
+	
+	
+	public String[] getFileList(){
+		try{
+			File file=new File()
+		}
+	}
+	
+	
+	
+	
+	
+}

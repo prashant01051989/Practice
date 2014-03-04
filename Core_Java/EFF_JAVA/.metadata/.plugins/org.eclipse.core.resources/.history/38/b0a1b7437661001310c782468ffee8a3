@@ -1,0 +1,31 @@
+package com.test.builder;
+
+public class NutritionFactsBuilder {
+private final int servingSize;
+private final int servings;
+private final int calories;
+private final int fat;
+private final int sodium;
+private final int carbohydrate;
+
+public static class Builder{
+	//Required
+	private final int servingSize;
+	private final int servings;
+	
+	//Optionals
+	private  int calories=0;
+	private  int fat=0;
+	private  int sodium=0;
+	private  int carbohydrate=0;
+	
+	public Builder(int servingSize,int servings){
+		this.servingSize=servingSize;
+		this.servings=servings;
+	}
+
+	
+}
+
+
+}

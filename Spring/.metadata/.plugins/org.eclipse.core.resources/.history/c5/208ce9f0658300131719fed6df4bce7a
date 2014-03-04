@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+
+public class StirngTest {
+
+	public static void main(String[] args) {
+		List<String> l=new ArrayList<String>();
+		l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");
+		l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");
+		l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");
+		l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");l.add("A");
+		System.out.println(l.size());
+		Set<String>set=new HashSet<String>();
+		for (int i = 0; i < 100; i++) {
+			set.add(""+i);
+			
+		}
+	}
+
+}

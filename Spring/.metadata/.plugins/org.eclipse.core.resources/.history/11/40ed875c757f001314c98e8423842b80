@@ -1,0 +1,12 @@
+
+public class StirngTest {
+
+	public static void main(String[] args) {
+		String st="{\"name\":\"anshu\"}";
+		System.out.println(st);
+		st=st.substring(st.indexOf('\"'), (st.indexOf(':')-1));
+		System.out.println(st);
+
+	}
+
+}

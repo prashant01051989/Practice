@@ -1,0 +1,5 @@
+package com.anno.test;
+
+public @interface Generate {
+
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context 
+	http://www.springframework.org/schema/context/spring-context.xsd" default-lazy-init="true">
+
+	<context:annotation-config />
+	
+	<bean id="log" class="com.test.spring.aop.aspects.LogService" />
+	<bean id="security" class="com.test.spring.aop.aspects.SecurityService" />
+
+	<bean id="mia" class="com.test.spring.aop.advice.MIAdvice" />
+	<bean id="mta" class="com.test.spring.aop.advice.MTAdvice" />
+
+	<bean id="helloTarget" class="com.test.spring.aop.services.HelloServiceImpl" />
+	<bean id="haiTarget" class="com.test.spring.aop.services.HaiServiceImpl" />
+
+	
+
+	<bean id="baseProxy" abstract="true"
+		class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="interceptorNames">
+			<list>
+				<value>mia</value>
+				<value>mta</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="helloProxy" parent="baseProxy">
+		<property name="targetClass" value="com.test.spring.aop.services.HelloService" />
+		<property name="target" ref="helloTarget" />
+	</bean>
+
+	<!-- <bean id="haiProxy" parent="baseProxy"> <property name="targetClass" 
+		value="com.test.spring.aop.services.HaiService" /> <property name="target" 
+		value="helloTarget" /> </bean> -->
+</beans>

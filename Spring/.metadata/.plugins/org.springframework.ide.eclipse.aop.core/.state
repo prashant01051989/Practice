@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="AOP4-SpringAPI"/>
+<aop-project name="IOC3-StaticFactoryMethod"/>
+<aop-project name="IOC4-InstanceFactoryMethod"/>
+<aop-project name="IOC15-Anno-AutoWiring"/>
+<aop-project name="IOC14-DependsOn"/>
+<aop-project name="IOC7-P-NameSpace"/>
+<aop-project name="IOC6-DependencyAndConfiguration"/>
+<aop-project name="IOC2-Constructor"/>
+<aop-project name="IOC12-AutowireByConstructor"/>
+<aop-project name="IOC10-AutowireByName"/>
+<aop-project name="IOC1-Hello-Setter"/>
+<aop-project name="IOC11-AutowireByType"/>
+<aop-project name="AOP2-SpringAPI"/>
+<aop-project name="AOP3-SpringAPI"/>
+<aop-project name="IOC9-CompoundPropertyName"/>
+<aop-project name="IOC13-BeanScope"/>
+<aop-project name="IOC8-C-NameSpace"/>
+<aop-project name="IOC5-CyclicDependency"/>
+<aop-project name="AOP1-SpringAPI"/>
+</aop-reference-model>

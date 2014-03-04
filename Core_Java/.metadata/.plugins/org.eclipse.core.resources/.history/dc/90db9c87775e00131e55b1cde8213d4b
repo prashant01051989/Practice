@@ -1,0 +1,9 @@
+package com.anno.test;
+
+public class Employeer {
+	
+private int id;
+private String email;
+private long phone;
+ 
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+	default-autowire-candidates="aObj,b*"	>
+
+
+
+
+	<bean id="aObj" class="com.test.spring.ioc11.A" lazy-init="true">
+		<property name="a" value="10" />
+		<property name="aName" value="AClass" />
+	</bean>
+	
+	<bean id="a1Obj" class="com.test.spring.ioc11.A" lazy-init="true" autowire-candidate="false">
+		<property name="a" value="100" />
+		<property name="aName" value="A1Class" />
+	</bean>
+
+	<bean id="bObj" class="com.test.spring.ioc11.B" lazy-init="true">
+		<property name="b" value="20" />
+		<property name="bName" value="BClass" />
+	</bean>
+
+
+	<bean id="hello1" class="com.test.spring.ioc11.Hello" autowire="byType"/>
+
+</beans>

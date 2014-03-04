@@ -1,0 +1,16 @@
+package com.test.noninstantibility;
+
+class Student{
+	private Student(){
+		
+	}
+}
+public class Test {
+	
+public static void main(String[] args) {
+	Student stu=new Student();
+}
+
+	
+	
+}

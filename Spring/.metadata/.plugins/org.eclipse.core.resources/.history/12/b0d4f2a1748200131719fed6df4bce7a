@@ -1,0 +1,15 @@
+package com.test.spring.aop.advice;
+
+import org.springframework.aop.ThrowsAdvice;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.test.spring.aop.aspects.LogService;
+
+public class MTAdvice implements ThrowsAdvice {
+	@Autowired
+	LogService log = null;
+
+	public void afterThrowing(Exception e) throws Throwable {
+		log.logException();
+	}
+}

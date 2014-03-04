@@ -1,0 +1,42 @@
+package com.nio.test;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.nio.ByteBuffer;
+import java.nio.channels.FileChannel;
+
+public class NIOTest2 {
+public static void main(String[] args) throws Exception {
+	
+	FileInputStream fis=new FileInputStream("D:\\Name.txt");
+	FileChannel from=fis.getChannel();
+	
+	
+	FileOutputStream fos=new FileOutputStream("D:\\To.txt",true );
+	FileChannel to=fos.getChannel();
+	
+	long position =0;
+	long count=from.size();
+	
+	to.transferFrom(from, position, count);
+	
+	ByteBuffer bb=ByteBuffer.allocate(1024);
+	System.out.println(bb.capacity());
+	System.out.println(bb.hasArray());
+	System.out.println(bb.hasRemaining());
+	System.out.println(bb.remaining());
+	int limit=fc.read(bb);
+	while(limit != -1){
+		bb.flip();
+		while(bb.hasRemaining()){
+			System.out.print((char)bb.get());
+		}
+		bb.clear();
+		limit=fc.read(bb);
+	}
+	fc.close();
+	fos.close();
+	
+	
+}
+}

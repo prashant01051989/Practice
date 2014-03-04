@@ -1,0 +1,19 @@
+package com.test.serialization;
+
+import java.io.Serializable;
+
+public class ObjectStreamTest {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+
+class Employee implements Serializable{
+	private String name;
+	private Date hireDate;
+	private double salary
+}

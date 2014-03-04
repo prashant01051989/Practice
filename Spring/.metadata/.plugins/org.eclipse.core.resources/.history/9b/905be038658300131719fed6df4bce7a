@@ -1,0 +1,11 @@
+import java.util.Arrays;
+
+
+public class StirngTest {
+
+	public static void main(String[] args) {
+		List<String> l=ArrayList<String>();
+
+	}
+
+}

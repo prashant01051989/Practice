@@ -1,0 +1,30 @@
+package com.io.test;
+
+import java.io.File;
+
+public class FilePermissionExample {
+
+	
+	public static void main(String[] args) {
+		try {
+			String fileName="B.txt";
+			String workingDir=System.getProperty("user.dir");
+			String yourOS=System.getProperty("os.name");
+			String finalName=workingDir+"\\"+fileName;
+			File file=new File(finalName);
+			if(file.createNewFile()){
+				System.out.println("New File has been created");
+			}else{
+				System.out.println("File already existed");
+			}
+			file.setExecutable(true);
+			file.setReadable(true);
+			file.setWritable(true);
+			
+		} catch (Exception e) {
+		
+		}
+
+	}
+
+}

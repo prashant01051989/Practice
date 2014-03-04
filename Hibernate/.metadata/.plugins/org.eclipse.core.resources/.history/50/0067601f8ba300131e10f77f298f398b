@@ -1,0 +1,16 @@
+package com.test.hibernate.client;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import com.test.hibernate.persis.Message;
+
+public class Client {
+	public static void main(String[] args) {
+		Session session=HibernateUtil.getSessionFactory().openSession();
+		Transaction tx=session.beginTransaction();
+		Message message=new Message("Hello World");
+		Long msgid=(Long) session.save(message);
+		
+	}
+}

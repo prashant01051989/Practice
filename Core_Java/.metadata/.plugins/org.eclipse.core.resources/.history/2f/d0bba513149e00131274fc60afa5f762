@@ -1,0 +1,27 @@
+package com.io.test;
+
+import java.io.File;
+
+public class DeleteExample {
+
+
+	public static void main(String[] args) {
+		try {
+			String workingDir=System.getProperty("user.dir");
+			String fileName="B.txt";
+			String finalName="";
+			finalName=workingDir+"\\"+fileName;
+			
+			File file=new File(finalName);
+			
+			
+			
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+
+	}
+
+}

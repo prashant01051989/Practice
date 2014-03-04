@@ -1,0 +1,16 @@
+package com.thread.test;
+
+public class NeedForSynchronizationDemo {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+
+
+class TransThread extends Thread{
+	private FinTrans ft;
+}

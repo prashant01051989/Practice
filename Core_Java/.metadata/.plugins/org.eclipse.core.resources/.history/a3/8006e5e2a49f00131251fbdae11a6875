@@ -1,0 +1,14 @@
+package com.thread.test;
+
+public class Lab2 {
+
+	public static void main(String[] args) {
+
+
+	}
+
+}
+
+class Hello extends Thread{
+	
+}

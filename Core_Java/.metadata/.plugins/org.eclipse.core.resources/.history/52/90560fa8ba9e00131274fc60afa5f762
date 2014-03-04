@@ -1,0 +1,19 @@
+package com.thread.test;
+
+public class ThreadNameTest {
+
+	public static void main(String[] args) {
+
+	}
+}
+
+class NameTest extends Thread {
+
+	public NameTest() {
+	}
+
+	public NameTest(String name) {
+		super(name);
+	}
+
+}

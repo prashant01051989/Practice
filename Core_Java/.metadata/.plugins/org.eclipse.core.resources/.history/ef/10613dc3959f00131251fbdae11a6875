@@ -1,0 +1,24 @@
+package com.thread.test;
+
+public class NeedForSynchronizationDemo {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+class FinTrans{
+	public static String transName;
+	public static double amount;
+}
+
+
+class TransThread extends Thread{
+	private FinTrans ft;
+	public TransThread(FinTrans ft,String name){
+		super(name);
+		this.ft=ft;
+	}
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	
+
+
+	<bean id="aobj" class="com.test.spring.ioc9.A">
+		<property name="a" value="10" />
+		<property name="aName" value="AClass" />
+	</bean>
+
+	<bean id="bobj" class="com.test.spring.ioc9.B">
+		<property name="b" value="20" />
+		<property name="bName" value="BClass" />
+	</bean>
+
+
+	<bean id="hello1" class="com.test.spring.ioc9.Hello">	
+		<property name="a" ref="aobj"  />
+		<property name="a.aName" value="Anshu" /> <!--First initialize the a with class A object the add A class getter in Hello class -->
+	</bean>
+	
+
+</beans>

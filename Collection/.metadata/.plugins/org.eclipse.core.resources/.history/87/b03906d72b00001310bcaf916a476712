@@ -1,0 +1,24 @@
+package com.collection.set.test;
+
+public class Test {
+
+	public static void main(String[] args) {
+		String vasr="";
+		String laninsert="";
+		if(vasr.equals("Ram")&&vasr.equals("South")){
+	      System.out.println("sdfdf");
+		}else if(vasr.equals("Anshu")){
+			laninsert="Prashant";
+		}
+
+	}
+
+}
+
+
+// laninsert="no,af,en-us";
+/*if(var.equals("Namibia")|var.equals("South Africa")){
+        laninsert="no,af,en-us";
+}elseif (var.equals("Spain")){  //this line throws error
+        laninsert="no,sq,en-gb";
+}*/

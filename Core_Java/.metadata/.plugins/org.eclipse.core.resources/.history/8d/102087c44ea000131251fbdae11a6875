@@ -1,0 +1,23 @@
+package com.thread.test;
+
+public class DeadLockTest {
+	String st="Java";
+	String st2="Unix";
+
+	
+	Thread t1=new Thread("My thread1"){
+		public void run(){
+			while(true){
+				synchronized (st) {
+					synchronized (st2) {
+						System.out.println(st+st2);
+					}
+				}
+			}
+		}
+	};
+	
+	
+}
+
+

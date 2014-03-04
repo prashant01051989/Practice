@@ -1,0 +1,32 @@
+package com.collection.set.test;
+
+import java.util.ArrayList;
+import java.util.ListIterator;
+
+public class ArrayListTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		ArrayList<String> al=new ArrayList<String>();
+		al.add("A");
+		al.add("B");
+		al.add("C");
+		al.add("D");
+		al.add("E");
+		ListIterator<String>ls=al.listIterator();
+		boolean b=true;
+		while (ls.hasNext()) {
+			if(b){
+			ls.add("F");
+			//b=false;
+			}
+			String string = (String) ls.next();
+			System.out.println(string);
+			
+		}
+		System.out.println(al);
+	}
+
+}

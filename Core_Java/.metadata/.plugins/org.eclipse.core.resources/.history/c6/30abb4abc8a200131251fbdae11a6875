@@ -1,0 +1,29 @@
+package com.test.collection;
+
+import java.util.Arrays;
+
+public class ArraysTest {
+
+	public static void main(String[] args) {
+		String []st={"Anshu","Prashant","Kumar","23 "};
+		Integer []i={100,200,300,400,500};
+		String st1=Arrays.toString(i);
+		System.out.println(st1);
+		byte []by=new byte[5];
+		
+		by[0]=50;
+		by[1]=10;
+		by[2]=40;
+		by[3]=30;
+		by[4]=20;
+		st1=Arrays.toString(by);
+		System.out.println(st1);
+		Arrays.sort(by);
+		for(int x=0;x<by.length;x++){
+			System.out.print("\t"+by[i]);
+		}
+			
+		
+	}
+
+}
