@@ -1,0 +1,5 @@
+package com.test.hibernate.persis;
+
+public class Address {
+
+}

@@ -1,0 +1,17 @@
+package com.test.hibernate.persis;
+
+public class CurrentStudent extends Student{
+private double feeBal;
+private String timing;
+private String branch;
+public CurrentStudent() {
+	super();
+}
+public CurrentStudent(double feeBal, String timing, String branch) {
+	super();
+	this.feeBal = feeBal;
+	this.timing = timing;
+	this.branch = branch;
+}
+
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 4, 2014 4:03:14 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+
+	<class name="com.test.hibernate.persis.Student" table="STUDENT">
+		<id name="sid" type="int" column="SID">
+			<generator class="increment" />
+		</id>
+		<property name="name" type="string" column="NAME" />
+		<property name="lanme" type="string" column="LNAME" />
+		<property name="city" type="java.lang.String" column="CITY" />
+		<property name="status" type="java.lang.String" column="STATUS" />
+		<list name="emails" table="EMAILS">
+			<key column="SID" />
+			<list-index column="IDX" base="1" />
+			<element column="EMAIL" type="string" />
+		</list>
+
+		<bag name="marks" table="MARKS">
+			<key column="SID" />
+			<element column="MARKS" type="int" />
+		</bag>
+		<set name="phones" table="PHONES">
+			<key column="SID" />
+			<element column="PHONE" type="int" />
+		</set>
+
+		<map name="refs" table="REFS">
+			<key column="SID" />
+			<map-key column="NAME" type="string" />
+			<element column="PHONE" />
+
+		</map>
+
+		<array name="courses" table="COURSES">
+			<key column="SID" />
+			<index column="IND" />
+			<element column="Course" type="String" />
+		</array>
+	</class>
+
+</hibernate-mapping>

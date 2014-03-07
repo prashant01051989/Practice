@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 4, 2014 4:03:14 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping package="com.test.hibernate.persis">
+
+	<class name="Address" table="ADDRESS">
+		<id name="addressId" column="SID" type="integer">
+		<!-- <generator class="increment"/> -->
+			<generator class="foreign">
+			<param name="property">student</param>
+			</generator>
+		</id>
+		<property name="street" column="STREET" type="string"
+			not-null="true" length="100" />
+		<property name="city" column="CITY" type="string" not-null="true"
+			length="100" />
+		<property name="state" column="STATE" type="string" not-null="true"
+			length="100" />
+		<property name="zipcode" column="ZIPCODE" type="string"
+			not-null="true" length="6" />
+		<!-- <one-to-one name="stu" property-ref="add"></one-to-one> -->
+		<one-to-one name="student" class="Student" constrained="true"/>
+	</class>
+
+</hibernate-mapping>

@@ -1,0 +1,22 @@
+package com.test.hibernate.persis;
+
+import java.util.List;
+
+public class WeekendStudent extends CurrentStudent {
+private String company;
+private String cemail;
+private double ctc;
+public WeekendStudent() {
+	super();
+}
+
+public WeekendStudent(String sname, String city, String status, float totalFee,
+		List<String> emails, List<Long> phones, double feeBal, String timing,
+		String branch, String company, String cemail, double ctc) {
+	super(sname, city, status, totalFee, emails, phones, feeBal, timing, branch);
+	this.company = company;
+	this.cemail = cemail;
+	this.ctc = ctc;
+}
+
+}

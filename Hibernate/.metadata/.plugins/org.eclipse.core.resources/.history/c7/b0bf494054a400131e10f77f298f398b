@@ -1,0 +1,17 @@
+package com.test.hibernate.persis;
+
+import java.util.List;
+import java.util.Set;
+
+public class Student {
+private int sid;
+private String name;
+private String lname;
+private String city;
+private String status;
+private List<String> emails;
+private Set<Long>phones;
+private Map<String,Long>refs;
+private String []courses;
+private List<Integer>marks;
+}

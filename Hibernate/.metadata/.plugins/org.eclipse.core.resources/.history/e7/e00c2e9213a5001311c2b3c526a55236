@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 4, 2014 4:03:14 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping package="com.test.hibernate.persis">
+
+	<class name="Student" table="STUDENT">
+		<id name="sid" column="SID" type="integer">
+			<generator class="increment" />
+		</id>
+		<property name="sname" column="SNAME" type="java.lang.String" />
+		<property name="city" column="CITY" />
+		<property name="status" column="STATUS" type="string" />
+		<property name="totalFee" column="TOTALFEE" type="float" />
+		<list name="emails" table="EMAILS">
+			<key column="SID" />
+			<index column="IDX" />
+			<element column="EMAIL" type="string" />
+		</list>
+		<list name="phones" table="PHONES">
+			<key column="SID" />
+			<index column="IDX" />
+			<element column="PHONE" type="long" />
+		</list>
+		<joined-subclass name="OldStudent" table="Old_Student">
+			<key column="SID"/>
+			<property name="company" column="COMPANY" type="string" />
+			<property name="cemail" column="CEMAIL" type="string" />
+			<property name="ctc" column="CTC" type="double" />
+		</joined-subclass>
+		<joined-subclass name="CurrentStudent" table="Current_Student">
+			<key column="SID"/>
+			<property name="feeBal" column="FEEBAL" type="double" />
+			<property name="timing" column="TIMING" type="string" />
+			<property name="branch" column="BRANCH" type="string" />
+		<joined-subclass name="RegularStudent" table="Regular_Student">
+				<key column="SID"/>
+				<property name="qualification" column="QUALIFICATION" type="string"
+					not-null="true" />
+				<property name="percentage" column="PERCENTAGE" type="string" />
+				<property name="yoe" type="integer" />
+			</joined-subclass>
+		<joined-subclass name="WeekendStudent" table="WeekendStudent">
+		<key column="SID"/>
+				<property name="company" />
+				<property name="cemail" />
+				<property name="ctc" type="double" />
+			</joined-subclass>
+
+		</joined-subclass></subclass>
+	</class>
+
+</hibernate-mapping>

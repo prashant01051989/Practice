@@ -1,0 +1,29 @@
+package com.test.hibernate.persis;
+
+public class OldStudent extends Student{
+private String company;
+private String cemail;
+private double ctc;
+public OldStudent() {
+	super();
+}
+public String getCompany() {
+	return company;
+}
+public void setCompany(String company) {
+	this.company = company;
+}
+public String getCemail() {
+	return cemail;
+}
+public void setCemail(String cemail) {
+	this.cemail = cemail;
+}
+public double getCtc() {
+	return ctc;
+}
+public void setCtc(double ctc) {
+	this.ctc = ctc;
+}
+
+}

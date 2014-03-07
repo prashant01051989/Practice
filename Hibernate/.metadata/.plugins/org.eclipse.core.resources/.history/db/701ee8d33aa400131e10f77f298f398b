@@ -1,0 +1,23 @@
+package com.test.hibernate.client;
+
+import java.util.Iterator;
+import java.util.List;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import com.test.hibernate.persis.Customer;
+import com.test.hibernate.persis.Message;
+import com.test.hibernate.util.HibernateUtil;
+
+
+
+
+public class Client {
+
+	public static void main(String[] args) {
+		Session session=HibernateUtil.getSessionFactory().openSession();
+		Transaction tx=session.beginTransaction();
+		Customer cust=new Customer("Anshu","a@gmail.com","Blore","Actiove",987654321l);
+		Long id=session.save(cust);
+	}
+}

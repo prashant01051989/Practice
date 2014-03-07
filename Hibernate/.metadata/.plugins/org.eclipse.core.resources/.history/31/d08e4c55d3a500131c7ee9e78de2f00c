@@ -1,0 +1,25 @@
+package com.test.hibernate.client;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import com.test.hibernate.persis.Address;
+import com.test.hibernate.persis.Student;
+import com.test.hibernate.util.HibernateUtil;
+
+public class Client {
+	public static void main(String[] args) {
+
+		Session session = HibernateUtil.getSessionFactory().openSession();
+		Transaction tx = session.beginTransaction();
+		List<String> emails = new ArrayList<String>();
+		Address add = new Address("B.Naraynapura", "Blore", "KA", "560016");
+		Student stu1 = new Student("Anshu", add);
+		Student stu2 = new Student("Prashant", add);
+		tx.commit();
+		session.close();
+	}
+}
