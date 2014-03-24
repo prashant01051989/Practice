@@ -1,0 +1,19 @@
+package com.anno.test;
+
+public class Client {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+}
+
+
+class AnnoProcessor{
+	public static void processAnnotations(Object obj){
+		
+	}
+}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="40" version="2.0">
+<workbench progressCount="45" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1024" x="150" y="0">
 <fastViewData fastViewLocation="1024">
@@ -31,7 +31,7 @@
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditorNoSource" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" itemType="typePlaceholder" x="38" y="22"/>
-<coolItem id="org.jboss.tools.hibernate.ui.xml.editor.HibConfig3CompoundEditor" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.jboss.tools.hibernate.ui.xml.editor.HibConfig3CompoundEditor" itemType="typePlaceholder" x="38" y="22"/>
 <coolItem id="org.jboss.tools.hibernate.ui.xml.editor.Hibernate3CompoundEditor" itemType="typePlaceholder" x="38" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.m2e.editor.MavenPomEditor" itemType="typePlaceholder" x="-1" y="-1"/>
@@ -45,45 +45,17 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="6"/>
-<part id="4"/>
-<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Student.java" partName="Student.java" path="D:/LABS/JAVA_LABS/Hibernate/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/Student.java" title="Student.java" tooltip="Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/Student.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/Student.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="735" selectionTopPixel="30"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CurrentStudent.java" partName="CurrentStudent.java" path="D:/LABS/JAVA_LABS/Hibernate/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/CurrentStudent.java" title="CurrentStudent.java" tooltip="Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/CurrentStudent.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/CurrentStudent.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="70" selectionOffset="680" selectionTopPixel="15"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OldStudent.java" partName="OldStudent.java" path="D:/LABS/JAVA_LABS/Hibernate/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/OldStudent.java" title="OldStudent.java" tooltip="Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/OldStudent.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/OldStudent.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="72" selectionOffset="657" selectionTopPixel="75"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WeekendStudent.java" partName="WeekendStudent.java" path="D:/LABS/JAVA_LABS/Hibernate/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/WeekendStudent.java" title="WeekendStudent.java" tooltip="Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/WeekendStudent.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/WeekendStudent.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="76" selectionOffset="753" selectionTopPixel="15"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Client.java" partName="Client.java" path="D:/LABS/JAVA_LABS/Hibernate/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/client/Client.java" title="Client.java" tooltip="Hibernate_Anno_Test4/src/main/java/com/test/hibernate/client/Client.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/client/Client.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="864" selectionTopPixel="0"/>
-</editor>
-<editor id="org.jboss.tools.hibernate.ui.xml.editor.HibConfig3CompoundEditor" name="hibernate.cfg.xml" partName="hibernate.cfg.xml" path="D:/LABS/JAVA_LABS/Hibernate/Hibernate_Anno_Test4/src/main/resources/hibernate.cfg.xml" title="hibernate.cfg.xml" tooltip="D:/LABS/JAVA_LABS/Hibernate/Hibernate_Anno_Test4/src/main/resources/hibernate.cfg.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" path="/Hibernate_Anno_Test4/src/main/resources/hibernate.cfg.xml"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RegularStudent.java" partName="RegularStudent.java" path="D:/LABS/JAVA_LABS/Hibernate/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/RegularStudent.java" title="RegularStudent.java" tooltip="Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/RegularStudent.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/RegularStudent.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="949" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Client.java" partName="Client.java" path="D:/LABS/JAVA_LABS/Hibernate/Anno_Collection/src/main/java/com/test/hibernate/client/Client.java" title="Client.java" tooltip="Anno_Collection/src/main/java/com/test/hibernate/client/Client.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Anno_Collection/src/main/java/com/test/hibernate/client/Client.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2023" selectionTopPixel="512"/>
 </editor>
 </editors>
 <views>
+<view id="org.eclipse.jdt.junit.ResultView" partName="JUnit"/>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
 <expanded>&#x0A;<category IMemento.internal.id="Java Problems"/>
@@ -99,11 +71,15 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
-<view id="org.eclipse.jdt.junit.ResultView" partName="JUnit"/>
-<view id="org.eclipse.ui.views.ProgressView" partName="Progress"/>
+<view id="org.eclipse.ui.views.ProgressView" partName="Progress">
+<viewState/>
+</view>
 <view id="org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator" partName="Beans Cross References"/>
 <view id="org.eclipse.contribution.xref.ui.views.XReferenceView" partName="Cross References"/>
 <view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
@@ -145,9 +121,6 @@
 </xmlDefinedFilters>
 </customFilters>
 </viewState>
-</view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
 </view>
 <view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
 <viewState/>
@@ -239,21 +212,16 @@
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.AllMarkersView"/>
+<view id="org.eclipse.ui.views.ProgressView"/>
+<view id="org.eclipse.wst.server.ui.ServersView"/>
 <fastViews>
 <view id="org.eclipse.jdt.junit.ResultView" ratio="0.25"/>
 <view id="org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator" ratio="0.25"/>
 <view id="org.eclipse.contribution.xref.ui.views.XReferenceView" ratio="0.25"/>
 </fastViews>
-<fastViewBars>
-<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
-<fastViews>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29855537"/>
-<view id="org.eclipse.ui.views.AllMarkersView" ratio="0.3"/>
-<view id="org.eclipse.ui.views.ProgressView" ratio="0.3"/>
-<view id="org.eclipse.wst.server.ui.ServersView" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-</fastViewBars>
+<fastViewBars/>
 <layout>
 <mainWindow>
 <info folder="true" part="left">
@@ -296,10 +264,7 @@
 </folder>
 </info>
 <info folder="true" part="bottom" ratio="0.6854839" ratioLeft="425" ratioRight="195" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.AllMarkersView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
@@ -308,8 +273,21 @@
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="com.springsource.sts.roo.ui.rooShellView" label="LabelNotFound"/>
 <page content="*" label="LabelNotFound"/>
-<page content="org.eclipse.wst.server.ui.ServersView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@777cc991" ratio="0.6516129" ratioLeft="404" ratioRight="216" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
+<page content="org.eclipse.ui.views.ProgressView" label="Progress"/>
+<page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
 </folder>
 </info>
 </mainWindow>
@@ -423,133 +401,158 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/RegularStudent.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/WeekendStudent.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/client/Client.java"/>
-<editor factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" id="org.jboss.tools.hibernate.ui.xml.editor.HibConfig3CompoundEditor" path="/Hibernate_Anno_Test4/src/main/resources/hibernate.cfg.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/Student.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/CurrentStudent.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/OldStudent.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Anno_Collection/src/main/java/com/test/hibernate/persis/Customer.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Anno_Collection/src/main/java/com/test/hibernate/client/Client.java"/>
+<editor factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" id="org.jboss.tools.hibernate.ui.xml.editor.HibConfig3CompoundEditor" path="/Anno_Collection/src/main/resources/hibernate.cfg.xml"/>
+<editor factoryID="org.springsource.ide.eclipse.dashboard.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" openDashboard="true"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Anno_Collection/src/main/java/com/test/hibernate/persis/Address.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Anno_Collection/src/main/java/com/test/hibernate/persis/Customer.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Anno_Collection/src/main/java/com/test/hibernate/persis/Employee.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Anno_Collection/src/main/java/com/test/hibernate/client/Client.java"/>
+<editor factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" id="org.jboss.tools.hibernate.ui.xml.editor.HibConfig3CompoundEditor" path="/Anno_Collection/src/main/resources/hibernate.cfg.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Anno_Collection/src/main/java/com/test/hibernate/persis/PhoneType.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JPA_PRO/src/main/java/com/test/hibernate/persis/Employee.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Anno_Collection/src/main/java/com/test/hibernate/client/Client.java"/>
 </editors>
-<item historyLabel="Client.java" index="2">
-<position info="not_deleted" x="870" y="0"/>
+<item historyLabel="Customer.java" index="0">
+<position info="not_deleted" x="1310" y="0"/>
 </item>
-<item historyLabel="hibernate.cfg.xml" index="3"/>
-<item historyLabel="Client.java" index="2">
-<position info="not_deleted" x="866" y="0"/>
+<item historyLabel="Client.java" index="1">
+<position info="not_deleted" x="1547" y="0"/>
 </item>
-<item historyLabel="RegularStudent.java" index="0">
-<position info="not_deleted" x="340" y="0"/>
+<item historyLabel="hibernate.cfg.xml" index="2"/>
+<item historyLabel="Customer.java" index="0">
+<position info="not_deleted" x="1310" y="0"/>
 </item>
-<item historyLabel="Client.java" index="2">
-<position info="not_deleted" x="866" y="0"/>
+<item historyLabel="Client.java" index="1">
+<position info="not_deleted" x="1547" y="0"/>
 </item>
-<item historyLabel="hibernate.cfg.xml" index="3"/>
-<item historyLabel="Client.java" index="2">
-<position info="not_deleted" x="866" y="0"/>
+<item historyLabel="Dashboard" index="3"/>
+<item historyLabel="Address.java" index="4">
+<position info="not_deleted" x="322" y="0"/>
 </item>
-<item historyLabel="hibernate.cfg.xml" index="3"/>
-<item historyLabel="Client.java" index="2">
-<position info="not_deleted" x="866" y="0"/>
+<item historyLabel="Customer.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="RegularStudent.java" index="0">
-<position/>
+<item historyLabel="Employee.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Client.java" index="2">
-<position info="not_deleted" x="866" y="0"/>
+<item historyLabel="Customer.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="hibernate.cfg.xml" index="3"/>
-<item historyLabel="RegularStudent.java" index="0">
-<position info="not_deleted" x="525" y="0"/>
+<item historyLabel="Employee.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Client.java" index="2">
-<position info="not_deleted" x="866" y="0"/>
+<item historyLabel="Customer.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="hibernate.cfg.xml" index="3"/>
-<item historyLabel="Client.java" index="2">
-<position info="not_deleted" x="866" y="0"/>
+<item historyLabel="Address.java" index="4">
+<position info="not_deleted" x="322" y="0"/>
 </item>
-<item historyLabel="hibernate.cfg.xml" index="3"/>
-<item historyLabel="RegularStudent.java" index="0">
-<position info="not_deleted" x="302" y="0"/>
+<item historyLabel="Customer.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Client.java" index="2">
-<position info="not_deleted" x="750" y="2"/>
+<item historyLabel="Customer.java" index="5">
+<position info="not_deleted" x="1013" y="0"/>
 </item>
-<item historyLabel="RegularStudent.java" index="0">
-<position info="not_deleted" x="302" y="0"/>
+<item historyLabel="Customer.java" index="5">
+<position info="not_deleted" x="2128" y="0"/>
 </item>
-<item historyLabel="WeekendStudent.java" index="1">
-<position info="not_deleted" x="223" y="31"/>
+<item historyLabel="Customer.java" index="5">
+<position info="not_deleted" x="2245" y="0"/>
 </item>
-<item historyLabel="RegularStudent.java" index="0">
-<position info="not_deleted" x="302" y="0"/>
+<item historyLabel="Customer.java" index="5">
+<position info="not_deleted" x="2247" y="0"/>
 </item>
-<item historyLabel="Client.java" index="2">
-<position info="not_deleted" x="805" y="0"/>
+<item historyLabel="Client.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="hibernate.cfg.xml" index="3"/>
-<item historyLabel="Client.java" index="2">
-<position info="not_deleted" x="750" y="2"/>
+<item historyLabel="Client.java" index="7">
+<position info="not_deleted" x="1692" y="0"/>
 </item>
-<item historyLabel="hibernate.cfg.xml" index="3"/>
-<item historyLabel="RegularStudent.java" index="0">
-<position info="not_deleted" x="525" y="0"/>
+<item historyLabel="Client.java" index="7">
+<position info="not_deleted" x="1574" y="0"/>
 </item>
-<item historyLabel="hibernate.cfg.xml" index="3"/>
-<item historyLabel="Client.java" index="2">
-<position info="not_deleted" x="750" y="2"/>
+<item historyLabel="Client.java" index="7">
+<position info="not_deleted" x="1612" y="0"/>
 </item>
-<item historyLabel="RegularStudent.java" index="0">
-<position info="not_deleted" x="493" y="32"/>
+<item historyLabel="Client.java" index="7">
+<position info="not_deleted" x="1868" y="0"/>
 </item>
-<item historyLabel="Client.java" index="2">
-<position info="not_deleted" x="750" y="2"/>
+<item historyLabel="Customer.java" index="5">
+<position info="not_deleted" x="2247" y="0"/>
 </item>
-<item historyLabel="hibernate.cfg.xml" index="3"/>
-<item historyLabel="RegularStudent.java" index="0">
-<position info="not_deleted" x="302" y="0"/>
+<item historyLabel="Customer.java" index="5">
+<position info="not_deleted" x="2169" y="0"/>
 </item>
-<item historyLabel="hibernate.cfg.xml" index="3"/>
-<item historyLabel="RegularStudent.java" index="0">
-<position info="not_deleted" x="302" y="0"/>
+<item historyLabel="Employee.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Client.java" index="2">
-<position info="not_deleted" x="750" y="2"/>
+<item historyLabel="Client.java" index="7">
+<position info="not_deleted" x="1868" y="0"/>
 </item>
-<item historyLabel="hibernate.cfg.xml" index="3"/>
-<item historyLabel="Client.java" index="2">
-<position info="not_deleted" x="750" y="2"/>
+<item historyLabel="Customer.java" index="5">
+<position info="not_deleted" x="2169" y="0"/>
 </item>
-<item historyLabel="hibernate.cfg.xml" index="3"/>
-<item historyLabel="Client.java" index="2">
-<position info="not_deleted" x="817" y="0"/>
+<item historyLabel="Employee.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="hibernate.cfg.xml" index="3"/>
-<item historyLabel="Client.java" index="2">
-<position info="not_deleted" x="864" y="0"/>
+<item historyLabel="hibernate.cfg.xml" index="8"/>
+<item historyLabel="Client.java" index="7">
+<position info="not_deleted" x="2047" y="0"/>
 </item>
-<item historyLabel="hibernate.cfg.xml" index="3"/>
-<item historyLabel="Client.java" index="2">
-<position info="not_deleted" x="864" y="0"/>
+<item historyLabel="hibernate.cfg.xml" index="8"/>
+<item historyLabel="Customer.java" index="5">
+<position info="not_deleted" x="2169" y="0"/>
 </item>
-<item historyLabel="Student.java" index="4">
-<position info="not_deleted" x="735" y="0"/>
+<item historyLabel="Employee.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="CurrentStudent.java" index="5">
-<position info="not_deleted" x="680" y="70"/>
+<item historyLabel="Client.java" index="7">
+<position info="not_deleted" x="1356" y="0"/>
 </item>
-<item historyLabel="OldStudent.java" index="6">
-<position info="not_deleted" x="657" y="72"/>
+<item historyLabel="PhoneType.java" index="9">
+<position info="not_deleted" x="83" y="0"/>
 </item>
-<item historyLabel="WeekendStudent.java" index="1">
-<position info="not_deleted" x="753" y="76"/>
+<item historyLabel="Client.java" index="7">
+<position info="not_deleted" x="1356" y="0"/>
 </item>
-<item historyLabel="RegularStudent.java" index="0">
-<position info="not_deleted" x="949" y="0"/>
+<item historyLabel="hibernate.cfg.xml" index="8"/>
+<item historyLabel="Customer.java" index="5">
+<position info="not_deleted" x="2385" y="0"/>
 </item>
-<item active="true" historyLabel="WeekendStudent.java" index="1">
-<position info="not_deleted" x="753" y="76"/>
+<item historyLabel="Client.java" index="7">
+<position info="not_deleted" x="1845" y="0"/>
+</item>
+<item historyLabel="Address.java" index="4">
+<position info="not_deleted" x="322" y="0"/>
+</item>
+<item historyLabel="Customer.java" index="5">
+<position info="not_deleted" x="2209" y="0"/>
+</item>
+<item historyLabel="Client.java" index="7">
+<position info="not_deleted" x="2027" y="0"/>
+</item>
+<item historyLabel="Employee.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Address.java" index="4">
+<position info="not_deleted" x="322" y="0"/>
+</item>
+<item historyLabel="Employee.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Customer.java" index="5">
+<position info="not_deleted" x="1013" y="0"/>
+</item>
+<item historyLabel="Client.java" index="7">
+<position info="not_deleted" x="2027" y="0"/>
+</item>
+<item historyLabel="Employee.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="Client.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -557,9 +560,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 <trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
@@ -568,55 +568,54 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HibernateUtil.java" tooltip="Hibernate_Anno_Test4/src/main/java/com/test/hibernate/util/HibernateUtil.java">
-<persistable path="/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/util/HibernateUtil.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Client.java" tooltip="Anno_Collection/src/main/java/com/test/hibernate/client/Client.java">
+<persistable path="/Anno_Collection/src/main/java/com/test/hibernate/client/Client.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.hibernate.ui.xml.editor.HibConfig3CompoundEditor" name="hibernate.cfg.xml" tooltip="Hibernate_Anno_Test4/src/main/resources/hibernate.cfg.xml">
-<persistable path="/Hibernate_Anno_Test4/src/main/resources/hibernate.cfg.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Employee.java" tooltip="JPA_PRO/src/main/java/com/test/hibernate/persis/Employee.java">
+<persistable path="/JPA_PRO/src/main/java/com/test/hibernate/persis/Employee.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Client.java" tooltip="Hibernate_Anno_Test4/src/main/java/com/test/hibernate/client/Client.java">
-<persistable path="/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/client/Client.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PhoneType.java" tooltip="Anno_Collection/src/main/java/com/test/hibernate/persis/PhoneType.java">
+<persistable path="/Anno_Collection/src/main/java/com/test/hibernate/persis/PhoneType.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WeekendStudent.java" tooltip="Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/WeekendStudent.java">
-<persistable path="/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/WeekendStudent.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.hibernate.ui.xml.editor.HibConfig3CompoundEditor" name="hibernate.cfg.xml" tooltip="Anno_Collection/src/main/resources/hibernate.cfg.xml">
+<persistable path="/Anno_Collection/src/main/resources/hibernate.cfg.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RegularStudent.java" tooltip="Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/RegularStudent.java">
-<persistable path="/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/RegularStudent.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Employee.java" tooltip="Anno_Collection/src/main/java/com/test/hibernate/persis/Employee.java">
+<persistable path="/Anno_Collection/src/main/java/com/test/hibernate/persis/Employee.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OldStudent.java" tooltip="Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/OldStudent.java">
-<persistable path="/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/OldStudent.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Customer.java" tooltip="Anno_Collection/src/main/java/com/test/hibernate/persis/Customer.java">
+<persistable path="/Anno_Collection/src/main/java/com/test/hibernate/persis/Customer.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CurrentStudent.java" tooltip="Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/CurrentStudent.java">
-<persistable path="/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/CurrentStudent.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Address.java" tooltip="Anno_Collection/src/main/java/com/test/hibernate/persis/Address.java">
+<persistable path="/Anno_Collection/src/main/java/com/test/hibernate/persis/Address.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Customer.java" tooltip="Hibernate_Anno_Test2/src/main/java/com/test/hibernate/persis/Customer.java">
-<persistable path="/Hibernate_Anno_Test2/src/main/java/com/test/hibernate/persis/Customer.java"/>
+<file factoryID="org.springsource.ide.eclipse.dashboard.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" name="Dashboard" tooltip="Dashboard">
+<persistable openDashboard="true"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Student.java" tooltip="Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/Student.java">
-<persistable path="/Hibernate_Anno_Test4/src/main/java/com/test/hibernate/persis/Student.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.hibernate.ui.xml.editor.HibConfig3CompoundEditor" name="hibernate.cfg.xml" tooltip="Anno_One_to_Many/src/main/resources/hibernate.cfg.xml">
+<persistable path="/Anno_One_to_Many/src/main/resources/hibernate.cfg.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" name="pom.xml" tooltip="Hibernate_Anno_Test4/pom.xml">
-<persistable path="/Hibernate_Anno_Test4/pom.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Client.java" tooltip="Anno_One_to_Many/src/main/java/com/test/hibernate/client/Client.java">
+<persistable path="/Anno_One_to_Many/src/main/java/com/test/hibernate/client/Client.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.hibernate.ui.xml.editor.Hibernate3CompoundEditor" name="Table_Per_Class.hbm.xml" tooltip="HibernateTest4/src/main/resources/Table_Per_Class.hbm.xml">
-<persistable path="/HibernateTest4/src/main/resources/Table_Per_Class.hbm.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Student.java" tooltip="Anno_One_to_Many/src/main/java/com/test/hibernate/persis/Student.java">
+<persistable path="/Anno_One_to_Many/src/main/java/com/test/hibernate/persis/Student.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.hibernate.ui.xml.editor.Hibernate3CompoundEditor" name="Table_Per_Subclass.hbm.xml" tooltip="HibernateTest4/src/main/resources/Table_Per_Subclass.hbm.xml">
-<persistable path="/HibernateTest4/src/main/resources/Table_Per_Subclass.hbm.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Address.java" tooltip="Anno_One_to_Many/src/main/java/com/test/hibernate/persis/Address.java">
+<persistable path="/Anno_One_to_Many/src/main/java/com/test/hibernate/persis/Address.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.hibernate.ui.xml.editor.Hibernate3CompoundEditor" name="Table_Per_ConcreteClass.hbm.xml" tooltip="HibernateTest4/src/main/resources/Table_Per_ConcreteClass.hbm.xml">
-<persistable path="/HibernateTest4/src/main/resources/Table_Per_ConcreteClass.hbm.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.m2e.editor.MavenPomEditor" name="pom.xml" tooltip="Anno_Collection/pom.xml">
+<persistable path="/Anno_Collection/pom.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" name="log4j.properties" tooltip="HibernateTest4/src/main/resources/log4j.properties">
-<persistable path="/HibernateTest4/src/main/resources/log4j.properties"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HibernateUtil.java" tooltip="Anno_Collection/src/main/java/com/test/hibernate/util/HibernateUtil.java">
+<persistable path="/Anno_Collection/src/main/java/com/test/hibernate/util/HibernateUtil.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.hibernate.ui.xml.editor.HibConfig3CompoundEditor" name="hibernate.cfg.xml" tooltip="HibernateTest4/src/main/resources/hibernate.cfg.xml">
-<persistable path="/HibernateTest4/src/main/resources/hibernate.cfg.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Customer.java" tooltip="Anno_Embedded/src/main/java/com/test/hibernate/persis/Customer.java">
+<persistable path="/Anno_Embedded/src/main/java/com/test/hibernate/persis/Customer.java"/>
 </file>
 </mruList>
 </workbench>

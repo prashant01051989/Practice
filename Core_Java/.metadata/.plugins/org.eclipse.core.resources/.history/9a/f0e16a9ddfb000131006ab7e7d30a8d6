@@ -1,0 +1,31 @@
+package com.anno.test;
+
+import java.lang.reflect.Field;
+
+public class Client {
+
+	public static void main(String[] args) {
+		Employee emp=new Employee();
+		AnnoProcessor.processAnnotations(emp);
+		System.out.println(emp.toString());
+
+	}
+}
+
+
+class AnnoProcessor{
+	public static void processAnnotations(Object obj){
+		try {
+			Class cls=obj.getClass();
+			for(Field f:cls.getDeclaredFields()){
+				Copyright copyright=f.getAnnotation(Copyright.class);
+				if(copyright!=null){
+					f.setAccessible(true);
+					f.set(obj,copyright.value());
+				}
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+}

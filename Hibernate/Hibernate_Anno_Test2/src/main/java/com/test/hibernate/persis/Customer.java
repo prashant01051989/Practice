@@ -24,7 +24,7 @@ public class Customer {
 	private long phone;
 
 	public Customer() {
-		LOG.info("Customer 0 arg cons");
+		LOG.info("*******************************************Customer 0 arg cons");
 	}
 
 	public Customer(String cname, String email, String city, String status,

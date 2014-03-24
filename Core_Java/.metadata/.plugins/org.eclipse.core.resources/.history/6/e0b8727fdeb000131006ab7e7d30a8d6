@@ -1,0 +1,28 @@
+package com.anno.test;
+
+import java.lang.reflect.Field;
+
+public class Client {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+}
+
+
+class AnnoProcessor{
+	public static void processAnnotations(Object obj){
+		try {
+			Class cls=obj.getClass();
+			for(Field f:cls.getDeclaredFields()){
+				Copyright i=f.getAnnotation(Copyright.class);
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+}

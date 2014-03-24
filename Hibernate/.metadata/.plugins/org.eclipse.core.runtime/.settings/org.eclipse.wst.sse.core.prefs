@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-task-tag-projects-already-scanned=HibernateTest1,Servers,HibernateTest2,HibernateTest3,Hibernate_Anno_Test2,Hibernate_Anno_Test3,HibernateTest4,HibernateTest5,Hibernate_Anno_Test4
+task-tag-projects-already-scanned=HibernateTest1,Servers,HibernateTest2,HibernateTest3,Hibernate_Anno_Test2,HibernateTest4,Hibernate_Anno_Test4,Anno_one_to_one,Bi-One-To-Many-Many-To-One,Bi-One-To-One,Many-To-One,One-To-Many,One-To-One,Anno_Many_to_one,Anno_One_to_Many,Anno_Collection,Anno_Many_to_Many,Anno_Embedded

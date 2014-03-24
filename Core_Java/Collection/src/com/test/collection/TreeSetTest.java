@@ -1,11 +1,9 @@
 package com.test.collection;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.NavigableSet;
-import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
@@ -81,7 +79,7 @@ public class TreeSetTest {
 		
 		System.out.println("ss1.first() :" + ss1.first());
 		
-		// System.out.println("ss2.first() :"+ss2.first());
+		//System.out.println("ss2.first() :"+ss2.first());
 		
 		System.out.println("ss1.last() :" + ss1.last());
 		
@@ -90,18 +88,20 @@ public class TreeSetTest {
 		SortedSet<String>ss3=ss1.tailSet("D");
 		
 		System.out.println("ss3 :"+ss3);
-		
+						
 		//ss3.add("A");
 		ss3.add("K");
 		
 		System.out.println("ss1 :" + ss1);
 		
-		SortedSet<String>ss4=ss1.subSet("D","I");
+		SortedSet<String>ss4=ss1.headSet("D");
+		System.out.println("ss4 :"+ss4);
+		SortedSet<String>ss5=ss1.subSet("D","I");
 		
-		System.out.println("ss4 :" + ss4);*/
+		System.out.println("ss5 :" + ss5);*/
 		
 		
-		/*NavigableSet<String> ns2 = new TreeSet<String>();
+	/*	NavigableSet<String> ns2 = new TreeSet<String>();
 		NavigableSet<String> ns1 = new TreeSet<String>(Arrays.asList("A","B","C","D","E","F","G","H","I","J"));
 		
 		System.out.println("ns1 :" + ns1);
@@ -124,15 +124,15 @@ public class TreeSetTest {
 		}
 		
 		
-		
+		System.out.println();
 		
 		System.out.println("*****************************************");*/
 		
-		TreeSet<TreeSet_A> set2 = new TreeSet<TreeSet_A>(new SortByName());
+	/*	TreeSet<TreeSet_A> set2 = new TreeSet<TreeSet_A>(new SortByName());
 		bol[0] = set2.add(col1);
 		bol[2] = set2.add(col3);
 		bol[1] = set2.add(col2);
-		System.out.println("set2 :"+set2);
+		System.out.println("set2 :"+set2);*/
 		
 		
 	}

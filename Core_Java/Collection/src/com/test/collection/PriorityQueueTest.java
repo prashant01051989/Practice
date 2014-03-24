@@ -1,6 +1,7 @@
 package com.test.collection;
 
 import java.util.Comparator;
+import java.util.Iterator;
 import java.util.PriorityQueue;
 
 class IntegerComparator implements Comparator<Integer>{
@@ -22,6 +23,7 @@ public class PriorityQueueTest {
 		for (int x : ia) {
 			pq2.offer(x);
 		}
+		//pq2.add(null);
 		System.out.println("pq2: " + pq2);
 		System.out.println("size: " + pq2.size());
 		System.out.println("peek: " + pq2.peek());
@@ -29,7 +31,15 @@ public class PriorityQueueTest {
 		System.out.println("size: " + pq2.size());
 		System.out.println("poll: " + pq2.poll());
 		System.out.println("size: " + pq2.size());
-		System.out.print("pq2: " + pq2);
+		System.out.println("pq2: " + pq2);
+		
+		Iterator<Integer>it=pq2.iterator();
+		while(it.hasNext()){
+			System.out.print(it.next()+"\t");
+		}
+		
+		
+		
 	}
 
 }

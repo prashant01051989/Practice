@@ -1,9 +1,11 @@
 package com.test.collection;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Deque;
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.ListIterator;
 import java.util.Queue;
 
@@ -45,7 +47,10 @@ public class LinkedListTest {
 	public static void main(String[] args) {
 		Boolean[] bol = new Boolean[6];
 		
-		/*
+		
+/*		
+		
+	
 		Queue<String>q1=new LinkedList<String>();
 		bol[0]=q1.add("A");
 		System.out.println("bol[0] :"+bol[0]);
@@ -55,10 +60,10 @@ public class LinkedListTest {
 		bol[0]=q1.add("C");
 		bol[0]=q1.add("D");
 		bol[0]=q1.add("E");
-		bol[0]=q1.add("F");
 		bol[0]=q1.add("G");
 		
 		System.out.println("q1 :"+q1);
+			
 		Queue<String>q2=new LinkedList<String>();
 		System.out.println("q1 :"+q1);
 		System.out.println("q1.remove() :"+q1.remove());
@@ -71,9 +76,9 @@ public class LinkedListTest {
 		//System.out.println("q2.element() :"+q2.element());
 		System.out.println("q1.peek() :"+q1.peek());
 		System.out.println("q2.peek() :"+q2.peek());
-		*/
 		
-		Deque<String>dq1=new LinkedList<String>();
+		*/
+		/*Deque<String>dq1=new LinkedList<String>();
 		bol[0]=dq1.add("C");
 		bol[0]=dq1.add("D");
 		bol[0]=dq1.add("E");
@@ -125,7 +130,7 @@ public class LinkedListTest {
 		System.out.println("dq1.peekLast() :"+dq1.peekLast());
 		System.out.println("dq2.peekLast() :"+dq2.peekLast());
 		System.out.println("dq1 :"+dq1);
-		
+		*/
 		
 		
 		
